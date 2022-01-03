@@ -1,0 +1,28 @@
+<div class="header">
+    <h1>Registrar usuario</h1>
+</div>
+
+<div class="container">
+    <form class="form" (ngSubmit)="registrar()">
+        <label for="id">Numero de cedula</label>
+        <input type="number" id="id" name="id" [(ngModel)]="id">
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password">
+
+        <label for="Nombre">Nombrea</label>
+        <input type="text" id="nombre" name="nombre" [(ngModel)]="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" [(ngModel)]="apellido">
+
+        <label for="telefono">Numero de teléfono</label>
+        <input type="number" id="telefono" name="telefono" [(ngModel)]="telefono">
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion" [(ngModel)]="direccion">
+
+        <input type="submit" value="Registrar">
+        <a routerLink="/">Regresar</a>
+    </form>
+</div>

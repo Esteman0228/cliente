@@ -1,0 +1,15 @@
+<div class="header">
+    <h1>Nueva Tarjeta</h1>
+</div>
+<form action="" class="form container" (ngSubmit)="onSubmit()">
+    <div class="col-1">
+        <input type="number" name="numero" id="numero" placeholder="Numero de tarjeta" [(ngModel)]="numero">
+        <input type="text" name="banco" id="banco" placeholder="Banco" [(ngModel)]="banco">
+    </div>
+    <div class="col-2">
+        <input type="text" name="red" id="red" placeholder="Red Global" [(ngModel)]="red">
+        <input type="text" name="fecha" id="fecha" placeholder="fecha de vencimiento (mm/aa)" [(ngModel)]="fecha">
+        <input type="submit" value="Guardar Tarjeta" class="enviar">
+    </div>
+
+</form>

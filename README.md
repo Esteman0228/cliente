@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Comentarios
+
+Prueba tecnica realizada en angular 13 y java 11 SpringBoot el front-end y back-end respectivamente.
+
+Front-End corriendo en el puerto 4200 y Back-end en el 8080.
+
+Debe correrse en el 4200 para que funcionen los cors puestos en el back-end.
+
+Las contraseñas de la base de datos en Postgresql son 123456.

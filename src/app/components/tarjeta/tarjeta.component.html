@@ -1,0 +1,19 @@
+<div class="tarjeta">
+    <div class="col-1">
+        <div>
+            {{metodo()}}
+        </div>
+        <div>
+            {{tarjeta.banco}}
+        </div>
+    </div>
+    <div class="col-2">
+        <div>
+            {{tarjeta.red}}
+        </div>
+        <div>
+            {{tarjeta.fecha }}
+        </div> 
+        <button (click)="onDelete(tarjeta)">Eliminar</button>
+    </div>
+</div>

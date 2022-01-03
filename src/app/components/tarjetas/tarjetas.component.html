@@ -1,0 +1,9 @@
+<div class="header">
+    <h1>Gestor de tarjetas</h1>
+    <a routerLink="/addTarjetas">Añadir nueva tarjeta</a>
+    <a routerLink="/">Salir</a>
+</div>
+
+<div class="container">
+    <app-tarjeta *ngFor="let tarjeta of tarjetas" [tarjeta]="tarjeta"></app-tarjeta>
+</div>
